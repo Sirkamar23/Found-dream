@@ -4,7 +4,7 @@ A small gift website from one Armenian to another.
 Someone scans the QR code, and a blue page full of butterflies opens. The butterflies fly away, and this message appears:
 
 > **We are Armenians.**
-> Երևի ամենասոիրուն բաներից է ՀԱՅ լինելը։
+> Երևի ամենասիրուն բաներից է ՀԱՅ լինելը, չէ՞
 > This small thing is a part of me that I made, and I want you to have it.
 > Always remember — our goal is to support each other ։).
 
