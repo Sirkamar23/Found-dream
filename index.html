@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Found Dream · Միասին ենք</title>
+  <meta name="description" content="A small gift from one Armenian to another. We are here to support each other.">
+  <meta name="theme-color" content="#0a2a6b">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦋</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@400;600;700&family=Noto+Serif+Armenian:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Butterflies are added here by script.js -->
+  <div id="butterflies" aria-hidden="true"></div>
+
+  <!-- Soft sparkles that stay in the background after the butterflies leave -->
+  <div id="sparkles" aria-hidden="true"></div>
+
+  <main id="gift" class="gift" hidden>
+    <section class="card message">
+      <p class="hello">Բարև ջան · Hello, dear friend</p>
+      <h1>We have to help each other.<br><span>We are Armenians.</span></h1>
+      <p class="hy">Մենք պետք է օգնենք իրար։ Մենք հայ ենք։</p>
+      <p>
+        This small thing is a part of me that I made, and I want you to have it.
+        Always remember — our goal is to support each other.
+      </p>
+      <p class="signature">Միասին ուժեղ ենք · Together we are strong 💙</p>
+
+      <button id="playBtn" class="play-big" type="button">
+        <span class="icon">▶</span> Play my music
+      </button>
+    </section>
+
+    <section class="card stickers">
+      <h2>Your stickers</h2>
+      <div class="sticker-grid">
+        <figure class="sticker">
+          <img src="stickers/found-dream.png" alt="Found Dream sticker" loading="lazy"
+               onerror="this.closest('figure').classList.add('missing')">
+          <div class="placeholder">🦋</div>
+          <figcaption>Found Dream</figcaption>
+        </figure>
+        <figure class="sticker">
+          <img src="stickers/glendale-bmw.png" alt="Glendale BMW sticker" loading="lazy"
+               onerror="this.closest('figure').classList.add('missing')">
+          <div class="placeholder">🚘</div>
+          <figcaption>Glendale Kopnik in his BMW</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="card player" aria-label="Music player">
+      <h2>My music</h2>
+      <div class="now">
+        <div class="disc" id="disc">🦋</div>
+        <div>
+          <div class="track-title" id="trackTitle">—</div>
+          <div class="track-artist" id="trackArtist"></div>
+        </div>
+      </div>
+      <input id="seek" class="seek" type="range" min="0" max="100" value="0" step="0.1" aria-label="Seek">
+      <div class="times"><span id="cur">0:00</span><span id="dur">0:00</span></div>
+      <div class="controls">
+        <button id="prevBtn" type="button" aria-label="Previous">⏮</button>
+        <button id="toggleBtn" class="toggle" type="button" aria-label="Play">▶</button>
+        <button id="nextBtn" type="button" aria-label="Next">⏭</button>
+      </div>
+      <ol id="playlist" class="playlist"></ol>
+      <audio id="audio" preload="metadata"></audio>
+    </section>
+
+    <footer>Made with love, from one Armenian to another · 🇦🇲</footer>
+  </main>
+
+  <script src="songs.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
