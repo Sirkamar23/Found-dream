@@ -1,12 +1,12 @@
-# 🦋 Found Dream · Միասին ենք
+# 🦋 Բարև 
 
 A small gift website from one Armenian to another.
 Someone scans the QR code, and a blue page full of butterflies opens. The butterflies fly away, and this message appears:
 
-> **We have to help each other. We are Armenians.**
-> Մենք պետք է օգնենք իրար։ Մենք հայ ենք։
+> **We are Armenians.**
+> Երևի ամենասոիրուն բաներից է ՀԱՅ լինելը։
 > This small thing is a part of me that I made, and I want you to have it.
-> Always remember — our goal is to support each other.
+> Always remember — our goal is to support each other ։).
 
 After the message, the page shows your two stickers and a music player with your songs.
 
